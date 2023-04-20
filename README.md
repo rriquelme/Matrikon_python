@@ -12,3 +12,9 @@
 
 2. List all servers:
     print(opc.servers())
+
+3. Connect to the server, in my case the Matrikon OPC Server: 
+    opc.connect('Matrikon.OPC.Simulation.1')
+
+4. view information of the opc:
+    print(opc.info())
